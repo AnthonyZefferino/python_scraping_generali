@@ -12,7 +12,7 @@ class DB():
                                                   database='portalservices',
                                                   port=os.getenv("PORT"))
 
-    def query(self, sql, args):
+    def query(self, sql, args): 
         cursor = self.connection.cursor(dictionary=True)
         cursor.execute(sql, args)
         return cursor
