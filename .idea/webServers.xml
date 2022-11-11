@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="d63ec197-8b26-454e-bfd2-918fea627d00" name="staging">
+        <fileTransfer rootFolder="/tis-application/scraping" accessType="SFTP" host="192.168.247.116" port="2285" sshConfigId="702c838a-d0c1-445e-b97b-4ca0b4e8cc23" sshConfig="userscraping@192.168.247.116:2285 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="0" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
